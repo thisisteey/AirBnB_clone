@@ -109,7 +109,7 @@ To run the tests in non-interactive mode, and discover all the test, you can use
 python3 -m unittest discover tests
 ```
 
-## 0x05 Usage
+## 0x04 Usage
 
 * Start the console in interactive mode:
 
@@ -215,7 +215,7 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 > *Update the file.json*
 
 
-## Authors
+## 0x05 Authors
 <details>
     <summary>FARUQ OLAMIDE SOKUNBI</summary>
     <summary>TAIWO ADEOYE DADA</summary>
