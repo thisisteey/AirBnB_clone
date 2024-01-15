@@ -52,7 +52,7 @@ class TestFileStoragemethods(unittest.TestCase):
             rename("tmpfile", "file.json")
         except IOError:
             pass
-        models.FileStorage._FileStorage_objects = {}
+        models.FileStorage._FileStorage__objects = {}
 
     def testallmethods(self):
         """test 'all methods' returns a dictionary"""
