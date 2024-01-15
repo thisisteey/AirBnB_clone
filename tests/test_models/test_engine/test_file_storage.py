@@ -123,7 +123,7 @@ class TestFileStoragemethods(unittest.TestCase):
             models.storage.new(instance)
         models.storage.save()
         models.storage.reload()
-        objs = models.storage.all()
+        objs = models.FileStorage._FileStorage__objects
         for clsname, instance in instances.items():
             key = f"{clsname}.{instance.id}"
             self.assertIn(key, objs)

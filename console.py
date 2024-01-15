@@ -70,7 +70,7 @@ class HBNBCommand(cmd.Cmd):
         elif f"{clsargs[0]}.{clsargs[1]}" not in objdict:
             print("** no instance found **")
         else:
-            del(objdict[f"{clsargs[0]}.{clsargs[1]}"])
+            del objdict[f"{clsargs[0]}.{clsargs[1]}"]
             models.storage.save()
 
     def do_all(self, args):
