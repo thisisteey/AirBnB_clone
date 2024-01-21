@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>AirBnB Clone</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles/103-common.css">
+		<link rel="stylesheet" href="styles/103-header.css">
+		<link rel="stylesheet" href="styles/103-footer.css">
+		<link rel="stylesheet" href="styles/103-filters.css">
+		<link rel="stylesheet" href="styles/103-places.css">
+		<link rel="icon" type="image/x-icon" href="images/icon.png">
+	</head>
+	<body>
+		<header>
+			<div class="mobile_nav">
+				<label for="main_check" class="main_burger_nav">|||</label>
+				<input
+					type="checkbox"
+					id="main_check"
+					name="main_check"
+					class="main_nav_check"
+				>
+				<nav>
+					<ul class="nav_bar_level1">
+						<li>
+							<label for="second_check"><span>States</span></label>
+							<input type="checkbox" name="second_check" id="second_check">
+							<ul>
+								<li><span>Ogun</span></li>
+								<li><span>Lagos</span></li>
+							</ul>
+						</li>
+						<li>
+							<label for="third_check"><span>Amenities</span></label>
+							<input type="checkbox" name="second_check" id="third_check">
+							<ul>
+								<li><span>Internet</span></li>
+								<li><span>Television</span></li>
+								<li><span>Wifi</span></li>
+								<li><span>Kitchen</span></li>
+								<li><span>Iron</span></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="container">
+			<section class="filters" role="navigation">
+				<div class="locations">
+					<h3>States</h3>
+					<h4>Lagos, Ogun...</h4>
+					<ul class="popover">
+						<li>
+							<h2>Ogun:</h2>
+							<ul>
+								<li>Ijebu</li>
+								<li>Abeokuta</li>
+							</ul>
+						</li>
+						<li>
+							<h2>Lagos:</h2>
+							<ul>
+								<li>Agege</li>
+								<li>Ikoyi</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="amenities">
+					<h3>Amenities</h3>
+					<h4>Internet, Kitchen, Electricity...</h4>
+					<ul class="popover">
+						<li>Internet</li>
+						<li>Television</li>
+						<li>Kitchen</li>
+						<li>Iron</li>
+					</ul>
+				</div>
+				<button type="button" name="button">Search</button>
+			</section>
+			<section class="places">
+				<h1>Places</h1>
+				<article>
+					<div class="article_places_header">
+						<h2>Apartment</h2>
+						<div class="price_by_night">₦25,000</div>
+					</div>
+					<div class="information">
+						<div class="max_guest">4 Guests</div>
+						<div class="number_rooms">2 Bedrooms</div>
+						<div class="number_bathrooms">2 Bathrooms</div>
+					</div>
+					<div class="user"><p><b>Owner:</b> Tee Homes</p></div>
+					<div class="description">
+						<p>
+						Discover our cozy 2-bedroom, 2-bathroom apartment nestled in the hear of Ijebu, Ogun State, Nigeria. With its prime location, it offers easy access to St Peter's Church Hall, making it an excellent choice for those attending events and parties in the area. Enjoy a comforable stay with modern amenities and the convenience of being close to local attractions. Book now for a relaxing experience in the vibrant city of Ijebu!
+						</p>
+					</div>
+					<div class="amenities">
+						<h2>Amenities</h2>
+						<ul>
+							<li>
+								<div class="places_amenities_pet_friendly"></div>
+								No Pets Allowed
+							</li>
+							<li>
+								<div class="places_amenities_tv"></div>
+								Television
+							</li>
+							<li>
+								<div class="places_amenities_wifi"></div>
+								Wifi
+							</li>
+						</ul>
+					</div>
+					<div class="reviews">
+						<h2>2 Reviews</h2>
+						<ul>
+							<li>
+								<h3>From Lola 12th January 2024</h3>
+								<p>I felt like I was home away from home. Well deserved 5 star!<p>
+							</li>
+							<li>
+								<h3>From Barry 8th January 2024</h3>
+								<p>Very clean environment</p>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<h2>Villa</h2>
+					<div class="price_by_night">₦500,000</div>
+					<div class="information">
+						<div class="max_guest">30 Guests</div>
+						<div class="number_rooms">10 Bedrooms</div>
+						<div class="number_bathrooms">11 Bathrooms</div>
+					</div>
+					<div class="user"><p><b>Owner:</b> Dee Villas</p></div>
+					<div class="description">
+						<p>
+						Welcome to our luxurious villa located in Banana Island, Ikoyi, Lagos, Nigeria. This stunning property features 10 bedrooms, 11 bathrooms, and can accamodate up to 30 guests. With spacious rooms and modern amaneities, it's perfect setting for small events and gatherings. The villa is ideal for hosting house parties, creating memoable experiences for you and your guests. Book now for an unforgettable stay in the hear of Lagos!
+						</p>
+					</div>
+					<div class="amenities">
+						<h2>Amenities</h2>
+						<ul>
+							<li>
+								<div class="places_amenities_pet_friendly"></div>
+								Pet Friendly
+							</li>
+							<li>
+								<div class="places_amenities_tv"></div>
+								Television
+							</li>
+							<li>
+								<div class="places_amenities_wifi"></div>
+								Wifi
+							</li>
+						</ul>
+					</div>
+					<div class="reviews">
+						<h2>3 Reviews</h2>
+						<ul>
+							<li>
+								<h3>From Chuka 27th December 2023</h3>
+								<p>I was not getting an apartment, I had the best planner for my end of year party, My guest had the best time. Thanks Dee!</p>
+							</li>
+							<li>
+								<h3>From Mariam 7th December 2023</h3>
+								<p>I wanted a large space for my big family for our trip to lagos, I got more than expected which is great</p>
+							</li>
+							<li>
+								<h3>From Ade 20th November 2023</h3>
+								<p>The garden space is great for outdoor parties, extremely spacious</p>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<h2>Mini Flat</h2>
+					<div class="price_by_night">₦20,000</div>
+					<div class="information">
+						<div class="max_guest">2 Guests</div>
+						<div class="number_rooms">1 Bedroom</div>
+						<div class="number_bathrooms">1 Bathroom</div>
+					</div>
+					<div class="user"><p><b>Owner:</b> Tee Dee</p></div>
+					<div class="description">
+						<p>
+						Discover our Mini Flat in the charming city of Abeokuta, Ogun, Nigeria. Perfect for a brief stay, unwind in a cozy one-bedroom haven designed for two guests. Enjoy city lights from the private balcony and experience a moment of serenity as day turns to night. Centrally located, it's an ideal stop for travelers passing through town. Your tranquil escape awaits in the heart of vibrant Abeokuta!
+						</p>
+					</div>
+					<div class="amenities">
+						<h2>Amenities</h2>
+						<ul>
+							<li>
+								<div class="places_amenities_pet_friendly"></div>
+								No Pets Allowed
+							</li>
+							<li>
+								<div class="places_amenities_tv"></div>
+								Television
+							</li>
+							<li>
+								<div class="palces_amenities_wifi"></div>
+								Wifi
+							</li>
+						</ul>
+					</div>
+					<div class="reviews">
+						<h2>1 Review</h2>
+						<ul>
+							<li>
+								<h3>From Emmanuel 6th January 2024</h3>
+								<p>Got the best cozy apartment, very quiet and serene environemnt</p>
+							</li>
+						</ul>
+					</div>
+				</article>
+			</section>
+		</div>
+		<footer aria-label="Footer brand information">
+			<p>Best School</p>
+		</footer>
+	</body>
+</html>
